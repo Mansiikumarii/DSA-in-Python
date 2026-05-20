@@ -1,0 +1,16 @@
+Types of Operators
+-Arithmetic
+-Assignment
+-Logical
+-Bitwise
+-Membership
+-Identity
+-Ternary
+
+Operators are mathamatical symbols and keywords that perform mathamatical, Logical
+, comparision operation on operands
+
+Types of Operators
+-Unary Operators (need only one operands)
+-Binary Operators (need two operands)
+-Ternary Operators (need three operands)
