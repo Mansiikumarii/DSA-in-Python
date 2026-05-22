@@ -1,208 +1,142 @@
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Python%20Explorations&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=A%20Hands-On%20Tour%20of%20Core%20Concepts&descAlignY=58&descSize=18&descColor=a78bfa&animation=fadeIn" width="100%"/>
-
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Run+it.+Tweak+it.+Learn+it.;Numbers%2C+Types%2C+Operators+%E2%80%94+all+here.;No+dependencies.+Just+Python.;Great+for+beginners+%26+interview+prep." alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Python%20Explorations&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Runnable%20examples%20for%20curious%20minds&descSize=18&descAlignY=58&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<!-- BADGES -->
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![No Dependencies](https://img.shields.io/badge/Dependencies-None-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white)
-![Beginner Friendly](https://img.shields.io/badge/Level-Beginner%20Friendly-a78bfa?style=for-the-badge&logo=open-access&logoColor=white)
-![MIT License](https://img.shields.io/badge/License-Open%20Study-f59e0b?style=for-the-badge&logo=bookstack&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.x-FFD43B?style=for-the-badge&logo=python&logoColor=306998)
+![Zero Deps](https://img.shields.io/badge/Dependencies-None-00d084?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Open%20Study-a78bfa?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-34d399?style=for-the-badge)
+
+<br/>
+
+> *A hand-crafted collection of single-topic Python files — no fluff, just fundamentals.*
 
 </div>
 
 ---
 
-## ✨ What Makes This Repo Different
+## ✨ Why This Repo?
 
-> **No fluff. No bloated frameworks. No confusing abstractions.**  
-> Just clean, focused Python files you can open, run, and _actually understand_.
-
-Every script in this repo is built around a **single idea** — small enough to hold in your head, clear enough to learn from in minutes.
-
-```python
-# That moment when it just clicks 💡
->>> 0b1010 & 0b1100
-8
->>> bin(8)
-'0b1000'
-```
-
----
-
-## 🗂️ Project Structure
-
-```
-Python-Explorations/
-│
-├── 📁 Base Conversion/
-│   ├── Int.py            → integers, bases 2/8/10/16
-│   ├── Float.py          → floating point representation
-│   ├── Complex.py        → complex numbers demystified
-│   └── Conversions.py    → int ↔ str ↔ float ↔ hex ↔ bin
-│
-├── 📁 Data Types/
-│   ├── List.py           → indexing, slicing, mutation
-│   ├── Set.py            → uniqueness, unions, intersections
-│   ├── Dict.py           → keys, values, comprehensions
-│   ├── String.py         → formatting, methods, f-strings
-│   └── None.py           → NoneType, identity checks
-│
-└── 📁 Operators/
-    ├── Arithmetic.py     → +, -, *, /, //, %, **
-    ├── Bitwise.py        → &, |, ^, ~, <<, >>
-    ├── Logical.py        → and, or, not, short-circuit eval
-    ├── Relational.py     → ==, !=, <, >, is, in
-    └── Division.py       → true vs floor division, modulo edge cases
-```
+| 🧩 Single-topic files | ⚡ Zero dependencies | 🖥️ Works on Windows & macOS |
+|:---:|:---:|:---:|
+| One concept per file — easy to isolate and study | Pure Python 3, nothing to install | Run anywhere Python runs |
 
 ---
 
 ## 🚀 Quick Start
-
-> Requires **Python 3.x** — no pip installs, no virtual envs, no setup.
 
 ```bash
 # Clone it
 git clone https://github.com/your-username/DSA-in-Python.git
 cd DSA-in-Python
 
-# Pick any file and run it
-python "Operators/Bitwise.py"
+# Run any example directly
+python "Operators/Ternary.py"
 python "Base Conversion/Int.py"
 python "Data Types/String.py"
 ```
 
-**Tip for Windows users:** Wrap paths with spaces in quotes — e.g. `"Base Conversion/Int.py"`
+> **Tip:** Open a file, read it, tweak a value, run it again. That's the whole workflow.
 
 ---
 
-## 🧠 Concept Coverage at a Glance
-
-| Area | Topics Covered | Great For |
-|------|---------------|-----------|
-| **Base Conversion** | Binary, octal, hex, floats, complex, casting | Understanding how Python stores numbers |
-| **Data Types** | Lists, sets, dicts, strings, NoneType | Core data structures, mutation vs immutability |
-| **Operators** | Arithmetic, bitwise, logical, relational, division | Interviews, logic problems, low-level thinking |
-
----
-
-## 💡 How to Get the Most Out of This
-
-The best way to use this repo isn't just to read — it's to **break things on purpose**.
-
-1. **Run a file** to see the default output.
-2. **Change a value** — an operand, a data structure, a type.
-3. **Predict what happens** before you re-run.
-4. **Compare** your prediction with the output.
-
-```python
-# In Operators/Bitwise.py — try changing these values and re-running:
-a = 0b1010   # ← change me
-b = 0b1100   # ← change me too
-
-print(f"AND : {a & b} = {bin(a & b)}")
-print(f"OR  : {a | b} = {bin(a | b)}")
-print(f"XOR : {a ^ b} = {bin(a ^ b)}")
-```
-
----
-
-## 👥 Who This Is For
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-### 🐍 New Learners
-Just started Python? These files give you real, runnable examples without overwhelming setup or theory. Pick a topic, run it, modify it.
-
-</td>
-<td align="center" width="33%">
-
-### 🎯 Interview Preppers
-Bitwise tricks, floor division edge cases, and type conversion gotchas come up constantly. Run these files to build that muscle memory fast.
-
-</td>
-<td align="center" width="33%">
-
-### 🏫 Teachers & Mentors
-Each file is a self-contained demo — perfect for live coding in class, paste-and-explain exercises, or quick concept checks.
-
-</td>
-</tr>
-</table>
-
----
-
-## 🔥 Sample Outputs (Sneak Peek)
+## 📂 What's Inside
 
 <details>
-<summary><b>Operators/Bitwise.py</b> — click to expand</summary>
+<summary><b>🔢 Base Conversion</b> — How Python converts between types</summary>
 
-```
-a = 10  (0b1010)
-b = 12  (0b1100)
+<br/>
 
-AND  : 8   → 0b1000
-OR   : 14  → 0b1110
-XOR  : 6   → 0b0110
-NOT a: -11
-LEFT SHIFT  (a << 1): 20
-RIGHT SHIFT (a >> 1): 5
-```
+| File | Topic |
+|------|-------|
+| `Int.py` | Integer base conversion |
+| `Float.py` | Float representation |
+| `Complex.py` | Complex number conversion |
+| `Bool.py` | Boolean casting |
+| `String.py` | String-to-type parsing |
+| `List.py` | List conversion |
+| `NumberSystem.py` | Binary, Octal, Hex |
+
 </details>
 
 <details>
-<summary><b>Base Conversion/Int.py</b> — click to expand</summary>
+<summary><b>🏷️ Data Types</b> — Python's core type system, explored</summary>
 
-```
-Decimal  255  → Binary  : 0b11111111
-Decimal  255  → Octal   : 0o377
-Decimal  255  → Hex     : 0xff
+<br/>
 
-int('ff', 16)  = 255
-int('1010', 2) = 10
-int('0o17', 8) = 15
-```
+| File | Topic |
+|------|-------|
+| `Dictionary.py` | Key-value mappings |
+| `Set.py` | Unique unordered collections |
+| `SequenceDataType.py` | Lists, tuples, ranges |
+| `String.py` | String methods & behavior |
+| `None.py` | NoneType deep dive |
+| `Comments.py` | Inline & block comments |
+| `CacheRange.py` | Integer caching in CPython |
+| `EndString.py` | String termination & slicing |
+| `frozenSet.py` | Immutable sets |
+| `NumericDataType.py` | int, float, complex |
+| `Seperator.py` | `sep=` and `end=` in print |
+
 </details>
 
 <details>
-<summary><b>Operators/Division.py</b> — click to expand</summary>
+<summary><b>⚙️ Operators</b> — Every operator Python has, demonstrated</summary>
+
+<br/>
+
+| File | Topic |
+|------|-------|
+| `Arithmatic.py` | `+` `-` `*` `/` |
+| `Assignment.py` | `=` `+=` `-=` and friends |
+| `Bitwise.py` | `&` `\|` `^` `~` `<<` `>>` |
+| `Division.py` | True division behavior |
+| `FloorDiv.py` | `//` operator |
+| `Modulus.py` | `%` operator |
+| `Logical.py` | `and` `or` `not` |
+| `Equality.py` | `==` vs `!=` |
+| `Relational.py` | `<` `>` `<=` `>=` |
+| `Special.py` | `is` and `in` operators |
+| `StringComparisionDict.py` | String ordering logic |
+| `Ternary.py` | One-line `if/else` |
+
+</details>
+
+---
+
+## 🛠️ How to Use
 
 ```
-7 / 2   = 3.5      ← true division (float)
-7 // 2  = 3        ← floor division (int)
-7 % 2   = 1        ← remainder
--7 // 2 = -4       ← floors toward -∞, not 0 (!)
+1. Pick a topic you're curious about
+       ↓
+2. Open the file and read through it
+       ↓
+3. Run it:  python "Operators/Special.py"
+       ↓
+4. Change a value and run it again
+       ↓
+5. Now you own that concept ✅
 ```
-</details>
+
+---
+
+## 🎯 Goal
+
+This repo is built for **hands-on learning** — not passive reading.  
+Every file is self-contained and runnable in under 5 seconds.  
+No setup. No tutorials. Just open, run, and explore.
 
 ---
 
 ## 🤝 Contributing
 
-Small, focused PRs are genuinely welcome. Here's what fits best:
+Found a bug? Want to add a new topic?
 
-- 📝 Clearer inline comments or edge case explanations
-- ➕ Additional example values that reveal surprising behavior  
-- 🧪 Short `assert`-based tests that double as documentation
-- 📂 New compact files for topics not yet covered (e.g. `Walrus.py`, `Unpacking.py`)
-
-**Please keep the spirit of the repo:** one concept, one file, runnable in seconds.
-
----
-
-## 📄 License
-
-Open for study and reuse. Open an issue if you want help expanding examples or adding a new topic area.
+- ⭐ Star the repo if it helped you
+- 🐛 Open an issue for bugs or requests
+- 📬 PRs welcome for new example files
 
 ---
 
