@@ -71,8 +71,8 @@ Python-Explorations/
 
 ```bash
 # Clone it
-git clone https://github.com/your-username/python-explorations.git
-cd python-explorations
+git clone https://github.com/your-username/DSA-in-Python.git
+cd DSA-in-Python
 
 # Pick any file and run it
 python "Operators/Bitwise.py"
