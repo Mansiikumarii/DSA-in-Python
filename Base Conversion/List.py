@@ -259,5 +259,5 @@ print(L.extend([5]))
 means creating list object based on some condition. It is very easy and compact way of creating list
 objects from any iterable object(like list, tuple, dictinary, range, etc)
 Syntax:-
-List = [expression for item in iterable if condition] / optimal
+List = [expression for item in iterable if condition] / optimal 
 '''

@@ -69,3 +69,19 @@ for x in range(5,0,1):
 
 for x in range(5,5,1):
     print(x)
+
+p=1
+q=10
+count = 0
+for i in range(2,12):
+    if i%4 == 0:
+        p+= i
+        continue
+    q -= 2
+    if(p+q) % 6 == 0:
+        count +=1
+        break
+    count += 1
+else:
+        q+= p
+print(p,q,count)
