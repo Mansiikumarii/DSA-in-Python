@@ -1,79 +1,84 @@
-﻿<div align="center">
+<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=63DC82&center=true&vCenter=true&width=500&lines=🐍+python-learning-examples;Open.+Run.+Break.+Learn.+Repeat." alt="Typing SVG" />
+```
+██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+```
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![No Dependencies](https://img.shields.io/badge/Dependencies-None-63DC82?style=flat-square)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](#)
+### `learn-by-breaking-things` 🐍
 
-> *Open a file. Run it. Change a value. Run it again.*
-> **That's the fastest way to learn.**
+![Python](https://img.shields.io/badge/python-3.x-blue?style=flat-square&logo=python&logoColor=white)
+![Files](https://img.shields.io/badge/scripts-self--contained-brightgreen?style=flat-square)
+![Deps](https://img.shields.io/badge/dependencies-zero-orange?style=flat-square)
 
 </div>
 
 ---
 
-## ⚡ Quick Start
+```
+open → run → change a value → run again → repeat until it clicks
+```
+
+---
+
+## 📂 Structure
+
+```
+python-learning-examples/
+│
+├── Base Conversion/        # binary · hex · octal
+├── Condition/              # if · elif · else
+├── Data Types/             # str · int · list · dict · set · tuple
+├── Loop/                   # for · while · range
+├── Object Reference        
+│   and Memory Management/  # deep copy · shallow copy · id()
+└── Operators/              # arithmetic · logical · comparison
+```
+
+---
+
+## ▶ Run anything
 
 ```bash
-git clone https://github.com/Mansiikumarii/DSA-in-Python
-cd DSA-in-Python
+# pick any file and run it
 python "Base Conversion/List.py"
+python "Data Types/Dictionary.py"
+python "Loop/For.py"
 ```
 
 ---
 
-## ✨ Why This Repo?
-
-| | |
-|---|---|
-| ✅ **No dependencies** | Just Python — nothing to install |
-| ✅ **Self-contained scripts** | Every file runs on its own |
-| ✅ **Beginner-friendly** | Clear names, simple logic |
-| ✅ **Hack-it-yourself** | Change a value, see what breaks |
-
----
-
-## 📁 Topics
+## ⚡ Workflow
 
 ```
-📦 python-learning-examples
-│
-├── 🔢 Base Conversion/      → Binary, hex, octal conversions
-├── 🔀 Condition/            → if / elif / else logic
-├── 🗃️  Data Types/          → str, int, list, dict, tuple, set
-├── 🔁 Loop/                 → for, while, range, break, continue
-├── 🧠 Object Reference/     → Deep copy, shallow copy, memory refs
-└── ➕ Operators/            → Arithmetic, logical, comparison, bitwise
+1.  cd into any folder
+2.  open a .py file
+3.  python filename.py
+4.  tweak a value
+5.  run again — see what changes
 ```
 
 ---
 
-## 🚀 How to Use
+## 🛠 Requirements
 
 ```
-1. Pick any folder that interests you
-2. Open a .py file in your editor
-3. Run it  →  python filename.py
-4. Change a value and run again
-5. Repeat until it clicks 🎯
+Python 3.x          → https://python.org/downloads
+Any editor          → VS Code · PyCharm · Notepad++
 ```
-
----
-
-## 🛠️ Requirements
-
-- **Python 3.x** → [download here](https://www.python.org/downloads/)
-- **Any editor** → VS Code, PyCharm, Notepad++ — your choice
 
 ---
 
 <div align="center">
 
 ```
-Made for curious learners 🚀
+no pip install  ·  no venv  ·  just python
 ```
 
-*Star ⭐ this repo if it helped you!*
+*for curious learners who learn by doing* 🚀
 
 </div>
