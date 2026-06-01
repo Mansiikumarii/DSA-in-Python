@@ -30,13 +30,13 @@ open → run → change a value → run again → repeat until it clicks
 ```
 python-learning-examples/
 │
-├── Base Conversion/        # binary · hex · octal
-├── Condition/              # if · elif · else
-├── Data Types/             # str · int · list · dict · set · tuple
-├── Loop/                   # for · while · range
+├── Base Conversion/        # Bool.py · Complex.py · Float.py · Int.py · List.py · NumberSystem.py · String.py
+├── Condition/              # if-elif-else.py · If-else.py · Indentation.py
+├── Data Types/             # CacheRange.py · Comments.py · Dictionary.py · EndString.py · frozenSet.py · None.py · NumericDataType.py · Seperator.py · SequenceDataType.py · Set.py · String.py · Tuple.py
+├── Loop/                   # For.py · match.py · Nested.py · Transfer.py · While.py
 ├── Object Reference        
-│   and Memory Management/  # deep copy · shallow copy · id()
-└── Operators/              # arithmetic · logical · comparison
+│   and Memory Management/  # DeepCopy.py · Difference.py · ShallowCopy.py
+└── Operators/              # Arithmatic.py · Assignment.py · Bitwise.py · Division.py · Equality.py · FloorDiv.py · Logical.py · Modulus.py · Operators.txt · Relational.py · Special.py · StringComparisionDict.py · Ternary.py
 ```
 
 ---

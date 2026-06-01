@@ -130,3 +130,89 @@ V = d.values()
 print(V)
 d[4] = 'D'
 print(V) 
+
+'''
+3) Items(): (key, value) pair in the form of view object(live window)
+'''
+print(d.items()) # Return dict_items(tuple of key value pair)
+
+d = {1:'A',2:'B',3:'C'}
+i = d.items()
+print(i)
+
+d= {'a':1, 'b':2}
+keys = d.keys()
+values = d.values()
+items = d.items()
+
+print(keys)
+print(values)
+print(items)
+d['c'] = 3
+print(keys)
+print(values)
+
+'''
+Dictionary view objects
+- They do not create a cpoy of dictionary data
+- They provide a live view of dictionary data
+- Any change in dictionary is automatically reflected in view objects
+- View objects are read only, we cannot modify them
+
+get():
+d.get(key, default_value)
+default_value is optional, if key is not found in dictionary then default value is returned, if default value is not provided then None is returned
+'''
+
+d = {1:'A',2:'B', 3:'C'}
+print(d.keys())
+print(d.get(2))
+print(d.get(10)) # None
+print(d.get(10,'Not Found')) # Not Found
+
+'''
+5) setdefault():-
+get+insert
+d.setdefault(key, default_value)
+'''
+d = {1:'A',2:'B',3:'C'}
+print(d.setdefault(2,'X'))
+print(d.setdefault(4,'D'))
+print(d)
+
+'''
+6) update() :-
+return None
+Syntax:-
+d.update(others)
+others is dictionary or iterable of key value pair
+'''
+
+d1 = {1:'A', 2:'B'}
+d2 = {2:'x', 3:'c'}
+print(d1.update(d2))
+print(d1)
+print(d2)
+
+d1 = {1:'A'}
+d2 = {2:'B', 3:'C'}
+d1.update(d2)
+print(d1)
+
+'''
+keyword arguments():-
+'''
+a = {'one':1, 'two':2, 'three':3}
+b = dict(one=1, two=2, three=3)
+print(a)
+print(b)
+
+'''
+Mixed syntax:-
+dictionary + keyword arguments
+'''
+d = {'a':1}
+x = d.update({'b':2}, c=3)
+print(d)
+#d.update(c=3,{'b':2}) # SyntaxError: positional argument follows keyword argument
+print(x)
