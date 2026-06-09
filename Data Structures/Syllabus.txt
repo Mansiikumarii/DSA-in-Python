@@ -1,0 +1,7 @@
+Syallabus
+1) Linked List
+2) STACK
+3) Queue
+4) Trees
+5) Binary heap
+6) Hashing

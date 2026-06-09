@@ -216,3 +216,35 @@ x = d.update({'b':2}, c=3)
 print(d)
 #d.update(c=3,{'b':2}) # SyntaxError: positional argument follows keyword argument
 print(x)
+
+'''
+clear():- remove all items from dictionary
+'''
+d = {1:'A', 2:'B', 3:'C'}
+d.clear()
+print(d)
+
+d = dict.fromkeys([1,2],[])
+d[1].append(10)
+print(d) # {1: [10], 2: [10]} because both keys are pointing to same list object in memory      
+
+'''
+Final Summary:-
+get() : return value for key if key is in dictionary, else default value
+pop() : remove specified key and return corresponding value, if key is not found then default value is returned
+popitem() : remove and return an arbitrary (key, value) pair from dictionary, raises KeyError if dict is empty
+setdefault() : return value of key if key is in dictionary, else insert key with a value of default and return default
+update() : update dictionary with elements from another dictionary object or from an iterable of key/value pairs
+clear() : remove all items from dictionary
+copy() : return a shallow copy of the dictionary
+'''
+d= {10:'Cristiano Ronaldo', 45 : 'Lionel Messi', 1:'LeBron James'}
+print(len(d))
+print(min(d))
+print(max(d))
+print(sorted(d))
+print('Canelo Álvarez' in d)
+print(len(d.values()))
+print(min(d.values()))
+print(max(d.values()))
+print(sorted(d.values()))
